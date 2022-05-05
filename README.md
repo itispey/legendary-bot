@@ -3,12 +3,12 @@ An advanced Telegram group manager bot (Persian Language).
 
 This bot has been forked from [Group Butler](https://github.com/group-butler/GroupButler) in 2015 and continued development until 2020.
 
-The codes are not well-optimized. Some of them has been deprecated due to the Telegram API updates.
+The codes are not well-optimized. Some of them have been deprecated due to the Telegram API updates.
 
-Also I can't update the codes I'm busy these days so if you want to update them, feel free to create a new pull request.
+Also I can't update the codes since I'm busy these days so if you want to update them, feel free to create a new pull request.
 
 # features
-This bot has many cool features include:
+This bot has many cool features including:
 - Delete media (gif, sticker, videos, etc.)
 - Delete Ads
 - Auto-lock group
@@ -65,7 +65,7 @@ $ sudo service redis-server start
 
 For start the bot, type `./launch.sh` in terminal or press <kbd>CTRL</kbd>+<kbd>C</kbd> twice.
 
-For adding multiple bots, copy Alpha folder and rename it to whatever you want. The add the folder path to `launchbots.sh` and run all the bots with one command.
+For adding multiple bots, copy Alpha folder and rename it to whatever you want. Then add the folder path to `launchbots.sh` and run all the bots with one command.
 
 # enable anti pornographic
 The anti pornographic feature is using [eugencepoi/nsfw_api](https://hub.docker.com/r/eugencepoi/nsfw_api/).
