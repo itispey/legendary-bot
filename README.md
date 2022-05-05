@@ -1,21 +1,25 @@
 # legendary-bot
 An advanced Telegram group manager bot (Persian Language).
+
 This bot has been forked from [Group Butler](https://github.com/group-butler/GroupButler) in 2015 and continued development until 2020.
+
 The codes are not well-optimized. Some of them has been deprecated due to the Telegram API updates.
+
 Also I can't update the codes I'm busy these days so if you want to update them, feel free to create a new pull request.
 
 # features
 This bot has many cool features include:
-• Delete media (gif, sticker, videos, etc.)
-• Delete Ads
-• Auto-lock group
-• Anti pornographic
-• Logs channel
-• Filter words
-• Anti-spam
+- Delete media (gif, sticker, videos, etc.)
+- Delete Ads
+- Auto-lock group
+- Anti pornographic
+- Logs channel
+- Filter words
+- Anti-spam
 
 # installation
 First of all, create your bot in BotFather and disable the privacy. After that, create an `.env` file inside /Bots/Alpha.
+
 The `.env` file should be like this:
 ```env
 TG_TOKEN=123456789:ABCDefGhw3gUmZOq36-D_46_AMwGBsfefbcQ
@@ -60,6 +64,7 @@ $ sudo service redis-server start
 ```
 
 For start the bot, type `./launch.sh` in terminal or press <kbd>CTRL</kbd>+<kbd>C</kbd> twice.
+
 For adding multiple bots, copy Alpha folder and rename it to whatever you want. The add the folder path to `launchbots.sh` and run all the bots with one command.
 
 # enable anti pornographic
