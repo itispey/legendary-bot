@@ -63,7 +63,7 @@ Before start your bot make sure Redis (which is your database) is started.
 $ sudo service redis-server start
 ```
 
-For start the bot, type `./launch.sh` in terminal or press <kbd>CTRL</kbd>+<kbd>C</kbd> twice.
+For start the bot, type `./launch.sh` in terminal and press <kbd>CTRL</kbd>+<kbd>C</kbd> twice to shutdown the bot.
 
 For adding multiple bots, copy Alpha folder and rename it to whatever you want. Then add the folder path to `launchbots.sh` and run all the bots with one command.
 
